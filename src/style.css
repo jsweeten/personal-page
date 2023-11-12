@@ -1,0 +1,46 @@
+body {
+  background-image: url('/src/assets/foggy-street-bg.jpg');
+  background-size: cover;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+#header {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(190, 190, 190, 0.164);
+  border-radius:  20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 10px;
+}
+
+.app-component {
+  background-color: rgba(190, 190, 190, 0.164);
+  border-radius:  20px;
+  padding: 1rem;
+  align-items: center;
+  width: 80%;
+}
